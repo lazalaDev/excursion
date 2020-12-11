@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+    
+body {
+    background-color: black;
+    font-family: 'Helvetica';
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main, section, footer {
+    padding: 50px;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+a {
+    font-size: 16px;
+    color: lightseagreen;
+    padding: 20px 0;
+    flex: 1 1 100%;
+}
+
+/* #waterfall {
+    width: 100%;
+} */
+
+.pictures {
+    padding: 20px;
+}
